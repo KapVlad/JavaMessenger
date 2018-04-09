@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_my_profile"
+        android:orderInCategory="100"
+        android:title="My profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_messages"
+        android:orderInCategory="100"
+        android:title="Remove Messages"
+        app:showAsAction="never" />
+</menu>

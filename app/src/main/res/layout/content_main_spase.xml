@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kap_vlad.android.javachat.MainSpace"
+    tools:showIn="@layout/app_bar_main_spase">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+
+        <ListView
+            android:id="@+id/main_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:layout_weight="1">
+        </ListView>
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="add new message"
+            android:padding="10dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
