@@ -237,7 +237,7 @@ public class ContactsAdapter extends BaseAdapter {
                     }
 
                 }.execute(db);
-                ShowHelper.show(ctx, "Catnaps removed!");
+                ShowHelper.show(ctx, "Contacts removed!");
                 showContacts.finish();
             }
         }
